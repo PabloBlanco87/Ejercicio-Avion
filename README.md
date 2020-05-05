@@ -7,7 +7,9 @@ El enunciado de la práctica está inspirado en el siguiente problema que aparec
 Cien personas embarcan en un avión cuyas plazas han sido vendidas en su totalidad. Desgraciadamente, la primera persona de la cola ha perdido su tarjeta de embarque al entrar en el avión y se sienta en un asiento elegido al azar. Los pasajeros siguientes se sentarán en el asiento indicado por su tarjeta si éste está libre o bien harán como el primer pasajero y elegirán un asiento libre al azar. ¿Cuál es la probabilidad deque el último pasajero encuentre el asiento correspondiente a su tarjeta de embarque libre?
 
 Clases necesarias:
+
 Clase Pasajero:
+
 Representa a un único pasajero, esta tendrá 3 atributos.
 1. Nombre.
 2. Número del asiento asignado.
@@ -16,6 +18,7 @@ El constructor de la clase recibirá el nombre del pasajero y su asiento asignad
 La clase incluirá los diferentes métodos Setter i Getters y la función toString().
 
 Clase Pasajeros:
+
 Representa al conjunto de pasajeros que se subirán al avión.
 Esta clase tiene como mínimo 1 atributo (en caso de necesitar más añadirlos) que será una lista de los pasajeros.
 El constructor de la clase recibirá el número de pasajeros totales.
@@ -25,7 +28,8 @@ siguientePasajero() La cual nos devolverá el siguiente pasajero de la lista.
 addPasajero(Pasajero pasajero) La cual nos permitirá añadir pasajeros a la lista.
 desordenar() La cual nos desordenará la lista de pasajeros.
 
-Clase Avion
+Clase Avion:
+
 Esta clase es la que mejor deberéis pensar. Tiene un constructor el cual recibe las plazas que tiene el avión y por tanto cuantos pasajeros podrá haber. Los atributos necesarios los tendréis que pensar vosotros, forma parte del análisis de clases.
 La clase avión tendrá la función obligatoria embarque la cual recibirá la lista de pasajeros que se van a embarcar en el avión.
 
