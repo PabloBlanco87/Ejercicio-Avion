@@ -31,12 +31,15 @@ La clase avión tendrá la función obligatoria embarque la cual recibirá la li
 
 Ejercicio 1:
 Crea la clase Pasajero con sus atributos y métodos correspondientes.
+
 Ejercicio 2:
 Crea la clase Pasajeros con sus atributos y métodos correspondientes.
+
 Ejercicio 3:
 Crea la clase Avion, la cual tendrá toda la lógica de nuestra aplicación.
 La función de la clase avión consistirá en embarcar a los pasajeros y comprobar si tienen tarjeta de embarque, en caso de no tenerla buscará un nuevo asiento aleatorio que esté libre. Por otro lado, si el pasajero tiene tarjeta de embarque y su asiento está ocupado por una persona que se ha sentado previamente también deberá buscar otro asiento libre de forma aleatoria.
 Finalmente, cuando se mire el último pasajero nos mostrará por pantalla si su (el que tiene en la tarjeta de embarque) coincide con el último asiento libre.
+
 Ejercicio 4:
 Crea la clase main, en ella deberás crear los diferentes pasajeros y el avión, para hacer el ejercicio más simple el número de pasajeros siempre será igual al numero de plazas en el avión.
 Cuando hayamos creado todos los pasajeros deberemos desordenar la lista y asignar al pasajero que se encuentra en la posición 0 la tarjeta de embarque perdida.
